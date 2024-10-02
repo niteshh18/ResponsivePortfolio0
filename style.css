@@ -217,3 +217,41 @@ ul li a:hover {
     margin: auto;
   }
 }
+footer{
+    background-color: black;
+    color: white;
+    font-weight: 10;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color: #111;
+}
+
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
